@@ -295,13 +295,15 @@ li:hover {
   color: var(--green);
 }
 .card {
-  background: var(--bg-color);
+  background: var(--bg-color)!important;
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
   transition: box-shadow 0.2s ease-in-out;
   padding: 4vh !important;
   margin: 2vh;
   font-size: 1.5rem !important;
+  color: var(--black) !important;
+  width: 100%;
 }
 .card:hover {
   transform: translateY(-5px);
