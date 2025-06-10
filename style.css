@@ -65,12 +65,12 @@ section h2 {
 }
 section h2 + p {
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--black) !important;
   margin-bottom: 2rem;
 }
 section h2 {
   font-size: 3rem;
-  color: var(--green);
+  color: var(--green) !important;
   margin-bottom: 1rem;
 }
 .btn {
@@ -92,6 +92,7 @@ section h2 {
 }
 .brf {
   color: var(--black) !important;
+  font-size: 1vh !important;
 }
 .header {
   position: fixed;
@@ -249,7 +250,7 @@ section h2 {
   text-transform: uppercase;
 }
 
-.home .content p {
+.home .content p , h2+p {
   font-size: 3rem;
   color: var(--green);
   text-transform: none;
@@ -276,6 +277,20 @@ section h2 {
 }
 
 .home .share a:hover {
+  box-shadow: var(--box-shadow-inset);
+  color: var(--green);
+}
+li {
+  list-style: none;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  color: var(--black);
+  margin: 2rem 0;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: 2vh;
+}
+li:hover {
   box-shadow: var(--box-shadow-inset);
   color: var(--green);
 }
