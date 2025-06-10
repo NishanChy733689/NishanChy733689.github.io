@@ -31,7 +31,8 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.2s linear;
+  transition: background-color 0.6s linear,
+    color 1s linear, box-shadow 0.2s linear, transform 0.2s ease-in-out;
 }
 
 html {
@@ -298,7 +299,6 @@ li:hover {
   background: var(--bg-color)!important;
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
-  transition: box-shadow 0.2s ease-in-out;
   padding: 4vh !important;
   margin: 2vh;
   font-size: 1.5rem !important;
