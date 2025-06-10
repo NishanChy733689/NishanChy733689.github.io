@@ -294,3 +294,22 @@ li:hover {
   box-shadow: var(--box-shadow-inset);
   color: var(--green);
 }
+.card {
+  background: var(--bg-color);
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 0.2s ease-in-out;
+  padding: 4vh !important;
+  margin: 2vh;
+  font-size: 1.5rem !important;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
